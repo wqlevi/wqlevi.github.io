@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Qi Wang's Page
+title: Qi's Page
 email: wq.levi@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the personal webpage of Qi, who's doing a PhD. in Max Planck Institute in Tübingen. The website will be including reseach projects,
