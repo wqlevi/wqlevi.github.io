@@ -1,16 +1,28 @@
 {"0": {
+    "doc": "Projects",
+    "title": "Projects",
+    "content": "This is a personal website on sharing knowledge. Github . ",
+    "url": "/Projects.html",
+    "relUrl": "/Projects.html"
+  },"1": {
     "doc": "Resume",
     "title": "Resume",
-    "content": "Here is the link to my resume: Resume . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "content": "Here is the link to my resume: Resume . ",
     "url": "/resume/",
     "relUrl": "/resume/"
-  },"1": {
-    "doc": "About",
-    "title": "About",
-    "content": "This is a personal website on sharing knowledge. Github . ",
-    "url": "/about/",
-    "relUrl": "/about/"
   },"2": {
+    "doc": "Super resolution on MRI",
+    "title": "Super resolution using GAN",
+    "content": "This project is mainly deploying GAN for generating high fedility MRI images . The result of SR could be extend for consequent applications, e.g. data augmentation, and these result were shown in OHBM 2022 and MIDL. ",
+    "url": "/Super-resolution.html#super-resolution-using-gan",
+    "relUrl": "/Super-resolution.html#super-resolution-using-gan"
+  },"3": {
+    "doc": "Super resolution on MRI",
+    "title": "Super resolution on MRI",
+    "content": " ",
+    "url": "/Super-resolution.html",
+    "relUrl": "/Super-resolution.html"
+  },"4": {
     "doc": "About me",
     "title": "About me",
     "content": "I’m currently a Ph.D. student at Universität Tübingen and Max Planck Institute for Biological Cybernetics. My current research focus is generative models using deep learning methods(e.g. GAN, score-match model, etc.) and its application on Medical Image data, especially MRI(~9.4Tesla). I was mainly educated in major of Mechanical Engineering in Hongkong Polytechnic University. ",

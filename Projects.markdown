@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Projects
+nav_order: 2
+has_children: true
 ---
 
 This is a personal website on sharing knowledge.
