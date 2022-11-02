@@ -2,25 +2,19 @@
     "doc": "Resume",
     "title": "Resume",
     "content": "Here is the link to my resume: Resume . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
-    "url": "http://localhost:4000/resume/",
+    "url": "/resume/",
     "relUrl": "/resume/"
   },"1": {
     "doc": "About",
     "title": "About",
-    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
-    "url": "http://localhost:4000/about/",
+    "content": "This is a personal website on sharing knowledge. Github . ",
+    "url": "/about/",
     "relUrl": "/about/"
   },"2": {
     "doc": "About me",
     "title": "About me",
     "content": "I’m currently a Ph.D. student at Universität Tübingen and Max Planck Institute for Biological Cybernetics. My current research focus is generative models using deep learning methods(e.g. GAN, score-match model, etc.) and its application on Medical Image data, especially MRI(~9.4Tesla). I was mainly educated in major of Mechanical Engineering in Hongkong Polytechnic University. ",
-    "url": "http://localhost:4000/",
+    "url": "/",
     "relUrl": "/"
-  },"3": {
-    "doc": "Docs",
-    "title": "Docs",
-    "content": "This page is meant for docs.[Testing] . ",
-    "url": "http://localhost:4000/home/",
-    "relUrl": "/home/"
   }
 }
