@@ -54,3 +54,8 @@ $$W_{GP}(\mathbb{P}_{r}, \mathbb{P}_{g}) =  \mathbb{E}_{x\sim \mathbb{P}_{r}}[f(
 Differently, WGAN-GP does not use batch normalization to avoid creating correlation among data inside mini-batch.
 ### Pros
 The WGAN-GP variant offers better convergence and more constistent performance after convergence, compared to DCGAN. Eventhough it requires more computation complexity.
+
+
+
+
+[![Hits](https://hits.sh/www.wqlevi.tk/GAN%20stabilty.html.svg)](https://hits.sh/www.wqlevi.tk/GAN%20stabilty.html/)
