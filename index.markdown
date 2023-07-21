@@ -8,7 +8,7 @@ layout: home
 ## About me
 
 <p>
-I'm currently a 4<sup>th</sup> year Ph.D. student at Universität Tübingen and Max Planck Institute for Biological Cybernetics. I was educated in major of Mechanical Engineering in Hongkong Polytechnic University.<br>
+I'm currently a 4<sup>th</sup> year Ph.D. student at Universität Tübingen and <a href="https://www.kyb.tuebingen.mpg.de/de">Max Planck Institute for Biological Cybernetics</a>. I was educated in major of Mechanical Engineering in <a href="https://www.polyu.edu.hk/en/">Hongkong Polytechnic University</a>.<br>
 My current research falls in generative models using deep learning methods(e.g. GAN, score-match model, flow-based methods.) and its application on Medical Image data, such as  MRI(~9.4Tesla). Apart from applications, I'm also studying the following topics:
 <ul>
 <li> the convergence properties and training dynamics of GAN</li>
