@@ -49,8 +49,14 @@ My current research falls in generative models using deep learning methods(e.g. 
 
 <p>
 <a href="https://openreview.net/pdf?id=EFiFV2MSNEB">Super-Resolution for Ultra High-Field MR Images</a><br>
-<i><span style="color:#808080">Medical Imaging with Deep Learning(MIDL 2022)</span></i><br>
+<i><span style="color:#808080">Medical Imaging with Deep Learning (MIDL 2022, Zürich)</span></i><br>
 <font size="2"><b>Qi Wang</b>, Julius Steiglechner, Tobias Lindig, Benjamin Bender, Klaus Scheffler, Gabriele Lohmann</font>
+</p>
+
+<p>
+<a href="https://nenaconference.files.wordpress.com/2021/10/abstractbook_nena2021.pdf">Synthetic 9T-like structural MRI using a Generative Neural Network</a><br>
+<i><span style="color#808080">Neurowissenschaftliche Nachwuchskonferenz (NeNa 2021, Tübingen)</span></i><br>
+<font size="2"><b>Qi Wang</b>, Juliu Steiglechner, Gabriele Lohmann</font>
 </p>
 
 <p>
@@ -75,3 +81,5 @@ My current research falls in generative models using deep learning methods(e.g. 
 <i><span style="color:#808080">Journal of Visualized Experiments, 2020</span></i><br>
 <font size="2">Sangcheon Choi, Kengo Takahashi, Yuanyuan Jiang, Sascha K&ouml;hler, Hang Zeng, <b>Qi Wang</b>, Yan Ma, Xin Yu</font>
 </p>
+
+### Talks
