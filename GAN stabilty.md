@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GAN stability(to be continued)
-parent: Projects
+parent: Blogs
 usemathjax: true
 use_math: true
 nav_order: 2

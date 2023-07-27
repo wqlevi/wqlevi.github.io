@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Super resolution on MRI
-parent: Projects
+parent: Blogs
 nav_order: 2
 ---
 # Super resolution using GAN

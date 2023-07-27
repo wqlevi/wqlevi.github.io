@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Blogs
 nav_order: 2
 has_children: true
 ---

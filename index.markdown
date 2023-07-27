@@ -25,13 +25,13 @@ My current research falls in generative models using deep learning methods(e.g. 
 
 <p>
 <u>A Three-player GAN for Super-Resolution in Magnetic Resonance Imaging</u><br>
-<i><span style="color:#808080">submitted to MICCAI2023 Workshop on Machine Learning for Clinical Neuroimaging</span></i><br>
+<i><span style="color:#808080">MICCAI2023 Workshop on Machine Learning for Clinical Neuroimaging</span></i><br>
 <font size="2"><b>Qi Wang</b>, Lucas Mahler, Julius Steiglechner, Florian Birk, Klaus Scheffler, Gabriele Lohmann </font>
 </p>
 
 <p>
 <u>METAFormer: A Multi-Atlas Enhanced Transformer Architecture for Autism Spectrum Disorder Classification Using Resting-State fMRI</u><br>
-<i><span style="color:#808080">submitted to MICCAI2023 Workshop on Machine Learning for Clinical Neuroimaging</span></i><br>
+<i><span style="color:#808080">MICCAI2023 Workshop on Machine Learning for Clinical Neuroimaging</span></i><br>
 <font size="2">Lucas Mahler, <b>Qi Wang</b>, Julius Steiglechner, Florian Birk, Samuel Heczko, Klaus Scheffler, Gabriele Lohmann </font>
 </p>
 
