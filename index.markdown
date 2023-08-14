@@ -19,7 +19,7 @@ My current research falls in generative models using deep learning methods(e.g. 
 ## Publications
 <p>
 <u>DISGAN: Wavelet-informede discriminator guides GAN to MRI images super-resolution with noise cleaning</u><br>
-<i><span style="color:#808080">submitted to ICCV2023 Workshop on Computer Vision for Automated Medical Diagnosis</span></i><br>
+<i><span style="color:#808080">ICCV2023 Workshop on Computer Vision for Automated Medical Diagnosis</span></i><br>
 <font size="2"><b>Qi Wang</b>, Lucas Mahler, Julius Steiglechner, Florian Birk, Klaus Scheffler, Gabriele Lohmann </font>
 </p>
 
@@ -55,7 +55,7 @@ My current research falls in generative models using deep learning methods(e.g. 
 
 <p>
 <a href="https://nenaconference.files.wordpress.com/2021/10/abstractbook_nena2021.pdf">Synthetic 9T-like structural MRI using a Generative Neural Network</a><br>
-<i><span style="color#808080">Neurowissenschaftliche Nachwuchskonferenz (NeNa 2021, Tübingen)</span></i><br>
+<i><span style="color:#808080">Neurowissenschaftliche Nachwuchskonferenz (NeNa 2021, Tübingen)</span></i><br>
 <font size="2"><b>Qi Wang</b>, Juliu Steiglechner, Gabriele Lohmann</font>
 </p>
 
