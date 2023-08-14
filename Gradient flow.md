@@ -41,3 +41,5 @@ $$
 $$
 
 $\text{where the last equation can be seen as the gradient of the measurement }\mathcal{F(\cdot)}\text{ on Wasserstein space}$
+
+### Deep learning persepctive (gradient descent)
