@@ -10,7 +10,7 @@ layout: home
 <img src="https://www.kyb.tuebingen.mpg.de/employee_images/99920-1680256439?t=eyJ3aWR0aCI6NDI2LCJoZWlnaHQiOjU0OCwiZml0IjoiY3JvcCIsImZpbGVfZXh0ZW5zaW9uIjoid2VicCJ9--27646ab4f30e7fedcf3f03ebd360565617825a1c" atl="Profile" style="float:right; width:150px;height:180px;">
 
 <p>
-I'm currently a 4<sup>th</sup> year Ph.D. student at Universität Tübingen and <a href="https://www.kyb.tuebingen.mpg.de/de">Max Planck Institute for Biological Cybernetics</a>. Prior to that, I recieved my master in major of Mechanical Engineering in <a href="https://www.polyu.edu.hk/en/">Hongkong Polytechnic University</a>.<br>
+I'm currently a 4<sup>th</sup> year Ph.D. student at <a href=https://uni-tuebingen.de/>Universität Tübingen</a> and <a href="https://www.kyb.tuebingen.mpg.de/de">Max Planck Institute for Biological Cybernetics</a>. Prior to that, I recieved my master in major of Mechanical Engineering in <a href="https://www.polyu.edu.hk/en/">Hong Kong Polytechnic University</a>.<br />
 My current research falls in generative models using deep learning methods(e.g. GAN, score-match model, flow-based methods.) and its application on Medical Image data, such as  MRI(~9.4Tesla). Apart from applications, I'm also working on the following topics:
 <ul>
 <li> the convergence properties and training dynamics of GAN</li>
@@ -139,4 +139,4 @@ Sythetic 9T-like structural MRI using Generative Neural Network<br>
 </i>
 </p>
 
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=exp_DX4m2PBkWNOD0Mp_OpztaeIooy4Ym1bd_FxHg4w&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=exp_DX4m2PBkWNOD0Mp_OpztaeIooy4Ym1bd_FxHg4w&cl=ffffff&w=a" style="float:right; width:50px;height:60px;"></script>

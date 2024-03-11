@@ -43,25 +43,46 @@
   },"6": {
     "doc": "Super resolution on MRI",
     "title": "Super resolution using GAN",
-    "content": "This project is mainly about deploying GAN for generating high fedility MRI images . The result of SR could be extend for consequent applications, e.g. data augmentation for segmentation models, and these result were shown in OHBM2022 and MIDL2022. In my opinion, SR task should be distinguished from other geenrative tasks (e.g. style transfer, cross-modality generation etc.), thus I personally prefer to redeem a SR task as restoring HR image from a LR conterpart with minimum pereceptual loss (i.e. indistinguishable for human perception). While many models fails to this point, SwinIR or DDPM treat SR as a way of matching the probability distribution of HR and SR images, which overlooks the local details that are mostly approximated via the intrinsic inductive bias of the convolutional layers. ",
+    "content": "This project is mainly about deploying GAN for generating high fidelity super-resolution (SR) MRI images . The result of SR could be extend for consequent applications, e.g. data augmentation for segmentation models, and these result were shown in OHBM2022 and MIDL2022; while the development of our SR model with 3 players as well as the denoising features can be found at MICCAI2023 and ICCV2023. | Improving segmentation results by training on SR augmented dataset | 3-Player GAN for perceptually SOTA SR task | Noise cleaning with wavelet discriminator | . In my opinion, SR task should be distinguished from other generative tasks (e.g. style transfer, cross-modality generation etc.), thus I personally prefer to redeem a SR task as restoring HR image from an LR counterpart with minimum perceptual loss (i.e. consistent quality). While many models failed to this point, DDPM treats SR as a way of matching the probability distribution of HR and SR images, which overlooks the local details that are mostly approximated via the intrinsic inductive bias of the convolutional layers. ",
     "url": "/Super-resolution.html#super-resolution-using-gan",
     
     "relUrl": "/Super-resolution.html#super-resolution-using-gan"
   },"7": {
+    "doc": "Super resolution on MRI",
+    "title": "Augmentation",
+    "content": "The segmentation networks were separatley trained on purely real MRI T1w images (left) and a mixture of SR images and real images (right), the latter training yields more correct segmentation as are pointed out by the blue arrows. ",
+    "url": "/Super-resolution.html#augmentation",
+    
+    "relUrl": "/Super-resolution.html#augmentation"
+  },"8": {
+    "doc": "Super resolution on MRI",
+    "title": "ThreePlayerGAN",
+    "content": "With the discrepancy for relativistic GAN loss approaching 0, for both the generator (G) and discriminator (D), the model is considered converged and balanced, which is shown to happen with our experiment. ",
+    "url": "/Super-resolution.html#threeplayergan",
+    
+    "relUrl": "/Super-resolution.html#threeplayergan"
+  },"9": {
+    "doc": "Super resolution on MRI",
+    "title": "DISGAN",
+    "content": "As can be seen in the listed results, where the DISGAN output (left) shows close approximation to the GT (right). ",
+    "url": "/Super-resolution.html#disgan",
+    
+    "relUrl": "/Super-resolution.html#disgan"
+  },"10": {
     "doc": "Super resolution on MRI",
     "title": "Super resolution on MRI",
     "content": " ",
     "url": "/Super-resolution.html",
     
     "relUrl": "/Super-resolution.html"
-  },"8": {
+  },"11": {
     "doc": "About me",
     "title": "About me",
-    "content": ". I'm currently a 4th year Ph.D. student at Universität Tübingen and Max Planck Institute for Biological Cybernetics. Prior to that, I recieved my master in major of Mechanical Engineering in Hongkong Polytechnic University. My current research falls in generative models using deep learning methods(e.g. GAN, score-match model, flow-based methods.) and its application on Medical Image data, such as MRI(~9.4Tesla). Apart from applications, I'm also working on the following topics: . | the convergence properties and training dynamics of GAN | the application of optimal transport on deep learning tasks | the alignment of machine intelligence with functional connectivity in human brain | . ",
+    "content": ". I'm currently a 4th year Ph.D. student at &lt;a href=https://uni-tuebingen.de/&gt;Universität Tübingen&lt;/a&gt; and Max Planck Institute for Biological Cybernetics. Prior to that, I recieved my master in major of Mechanical Engineering in Hong Kong Polytechnic University. My current research falls in generative models using deep learning methods(e.g. GAN, score-match model, flow-based methods.) and its application on Medical Image data, such as MRI(~9.4Tesla). Apart from applications, I'm also working on the following topics: . | the convergence properties and training dynamics of GAN | the application of optimal transport on deep learning tasks | the alignment of machine intelligence with functional connectivity in human brain | . ",
     "url": "/",
     
     "relUrl": "/"
-  },"9": {
+  },"12": {
     "doc": "About me",
     "title": "Publications",
     "content": "Preprints . Improving the reliability of fMRI-based predictions of intelligence via semi-blind machine learning Preprint, 2023 Gabriele Lohmann, Samuel Heczko, Lucas Mahler, Qi Wang, Julius Steiglechner, Vinod J. Kumar, Michelle Roost, Jürgen Jost, Klaus Scheffler . METAFormer: A Multi-Atlas Enhanced Transformer Architecture for Autism Spectrum Disorder Classification Using Resting-State fMRI Preprint, 2023 Lucas Mahler, Qi Wang, Julius Steiglechner, Florian Birk, Samuel Heczko, Klaus Scheffler, Gabriele Lohmann . A Three-Player GAN for Super-Resolution in Magnetic Resonance Imaging Preprint, 2022 Qi Wang, Lucas Mahler, Julius Steiglechner, Florian Birk, Klaus Scheffler, Gabriele Lohmann . FLEXseg: Next Generation Brain MRI Segmentation at 9.4 T Preprint, 2022 Julius Steiglechner, Qi Wang, Dana Ramadan, Lucas Mahler, Klaus Scheffler, Benjamin Bender, Tobias Lindig, Gabriele Lohmann . Conference papers . DISGAN: Wavelet-informede discriminator guides GAN to MRI images super-resolution with noise cleaning ICCV2023 Workshop on Computer Vision for Automated Medical Diagnosis Qi Wang, Lucas Mahler, Julius Steiglechner, Florian Birk, Klaus Scheffler, Gabriele Lohmann . A Three-player GAN for Super-Resolution in Magnetic Resonance Imaging MICCAI2023 Workshop on Machine Learning for Clinical Neuroimaging Qi Wang, Lucas Mahler, Julius Steiglechner, Florian Birk, Klaus Scheffler, Gabriele Lohmann . Pretraining is All You Need: A Multi-Atlas Enhanced Transformer Framework for Autism Spectrum Disorder Classification MICCAI2023 Workshop on Machine Learning for Clinical Neuroimaging Lucas Mahler, Qi Wang, Julius Steiglechner, Florian Birk, Samuel Heczko, Klaus Scheffler, Gabriele Lohmann . Super-Resolution for Ultra High-Field MR Images Medical Imaging with Deep Learning (MIDL 2022, Zürich) Qi Wang, Julius Steiglechner, Tobias Lindig, Benjamin Bender, Klaus Scheffler, Gabriele Lohmann . Synthetic 9T-like structural MRI using a Generative Neural Network Neurowissenschaftliche Nachwuchskonferenz (NeNa 2021, Tübingen) Qi Wang, Juliu Steiglechner, Gabriele Lohmann . Focal fMRI signal enhancement with implantable inductively coupled detectors NeuroImage 2022 Yi Chen#, Qi Wang#, Sangcheon Choi, Hang Zeng, Kengo Takahashi, Chunqi Qian, Xin Yu#: Joint first author . Inductively coupled detectors for optogenetic-driven focal and multiregional fMRI signal enhancement ISMRM 2021, summa cum laude award Yi Chen#, Qi Wang#, Sangcheon Choi, Hang Zeng, Kengo Takahashi, Chunqi Qian, Xin Yu #: Joint first author . Real-Time fMRI Brain Mapping in Animals Journal of Visualized Experiments, 2020 Sangcheon Choi, Kengo Takahashi, Yuanyuan Jiang, Sascha K&ouml;hler, Hang Zeng, Qi Wang, Yan Ma, Xin Yu . Talks . A Three-Player GAN for Super-Resolution in Magnetic Resonance Imaging Oral presentation on MICCAI 2023 MLCN workshop, Paris, France . Deep learning for MRI super resolution and its applications Max Planck Institute for Intelligent System, Tübingen, Germany . Super Resolution Improves Cortical Segmentation Accuracy in Ultra-high Resolution MRI International Conference on Human Brain Mapping (OHBM) 2022, Glasgow, UK . Sythetic 9T-like structural MRI using Generative Neural Network 22nd Conference of Junior Neuroscientists (NeNa 2021), Tübingen, Germany . ",
