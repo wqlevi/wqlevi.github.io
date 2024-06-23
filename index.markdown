@@ -10,16 +10,24 @@ layout: home
 <img src="https://www.kyb.tuebingen.mpg.de/employee_images/99920-1680256439?t=eyJ3aWR0aCI6NDI2LCJoZWlnaHQiOjU0OCwiZml0IjoiY3JvcCIsImZpbGVfZXh0ZW5zaW9uIjoid2VicCJ9--27646ab4f30e7fedcf3f03ebd360565617825a1c" atl="Profile" style="float:right; width:150px;height:180px;">
 
 <p>
-I'm currently a 4<sup>th</sup> year Ph.D. student at <a href=https://uni-tuebingen.de/>Universität Tübingen</a> and <a href="https://www.kyb.tuebingen.mpg.de/de">Max Planck Institute for Biological Cybernetics</a>. Prior to that, I recieved my master in major of Mechanical Engineering in <a href="https://www.polyu.edu.hk/en/">Hong Kong Polytechnic University</a>.<br />
-My current research falls in generative models using deep learning methods(e.g. GAN, score-match model, flow-based methods.) and its application on Medical Image data, such as  MRI(~9.4Tesla). Apart from applications, I'm also working on the following topics:
+I'm currently a 4<sup>th</sup> year Ph.D. student from Neuroscience department at <a href="https://uni-tuebingen.de">Universität Tübingen</a> and <a href="https://www.kyb.tuebingen.mpg.de/de">Max Planck Institute for Biological Cybernetics</a>. Prior to that, I recieved my master in major of Mechanical Engineering in <a href="https://www.polyu.edu.hk/en/">Hong Kong Polytechnic University</a>.</p>
+
+<p>My current research falls in generative models using deep learning methods(e.g. GAN, score-match model, flow-based methods.) and its application on Medical Image data, such as  MRI(~9.4Tesla). Apart from applications, I'm also working on the following topics:
 <ul>
-<li> the convergence properties and training dynamics of GAN</li>
-<li> the application of optimal transport on deep learning tasks</li>
+<li> the optimization of GAN</li>
+<li> the development of flow based model for image-2-image translation tasks</li>
 <li> the alignment of machine intelligence with functional connectivity in human brain</li>
 </ul></p>
 
 ## Publications
 ### Preprints
+
+<p>
+<a href="https://assets-eu.researchsquare.com/files/rs-4049684/v1_covered_55dfdbbf-b2d5-44dc-b403-651321105384.pdf?c=1711035751">Flexible and Cost-Effective Deep Learning for Fast Multi-Parametric Relaxometry using Phase-Cycled bSSFP</a><br>
+<i><span style="color:#808080">Preprint, 2024</span></i><br>
+<font size="2">Florian Birk, Lucas Mahler, Julius Steiglechner, <b>Qi Wang</b>, Klaus Scheffler, Rahel Heule</font>
+</p>
+
 <p>
 <a href="https://www.biorxiv.org/content/10.1101/2023.11.03.565485v1">Improving the reliability of fMRI-based predictions of intelligence via semi-blind machine learning</a><br>
 <i><span style="color:#808080">Preprint, 2023</span></i><br>
@@ -48,36 +56,41 @@ My current research falls in generative models using deep learning methods(e.g. 
 <p>
 <a href="https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/papers/Wang_DISGAN_Wavelet-Informed_Discriminator_Guides_GAN_to_MRI_Super-Resolution_with_Noise_ICCVW_2023_paper.pdf">DISGAN: Wavelet-informede discriminator guides GAN to MRI images super-resolution with noise cleaning</a><br>
 <i><span style="color:#808080">ICCV2023 Workshop on Computer Vision for Automated Medical Diagnosis</span></i><br>
+<font size="2"><b>Qi Wang</b>, Lucas Mahler, Julius Steiglechner, Florian Birk, Klaus Scheffler, Gabriele Lohmann </font><br>
 <a href="https://github.com/wqlevi/DISGAN">
 <img alt="github logo" src="https://img.shields.io/badge/Github-grey?logo=Github&link=https%3A%2F%2Fgithub.githubassets.com%2Fassets%2FGitHub-Mark-ea2971cee799.png">
 </a><br>
-<font size="2"><b>Qi Wang</b>, Lucas Mahler, Julius Steiglechner, Florian Birk, Klaus Scheffler, Gabriele Lohmann </font>
 </p>
 
 <p>
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-44858-4_3">A Three-player GAN for Super-Resolution in Magnetic Resonance Imaging</a><br>
 <i><span style="color:#808080">MICCAI2023 Workshop on Machine Learning for Clinical Neuroimaging</span></i><br>
+<font size="2"><b>Qi Wang</b>, Lucas Mahler, Julius Steiglechner, Florian Birk, Klaus Scheffler, Gabriele Lohmann </font><br>
 <a href="https://github.com/wqlevi/threeplayerGANSR">
 <img alt="github logo" src="https://img.shields.io/badge/Github-grey?logo=Github&link=https%3A%2F%2Fgithub.githubassets.com%2Fassets%2FGitHub-Mark-ea2971cee799.png"> <img alt="Static Badge" src="https://img.shields.io/badge/Oral-red">
 </a><br>
-<font size="2"><b>Qi Wang</b>, Lucas Mahler, Julius Steiglechner, Florian Birk, Klaus Scheffler, Gabriele Lohmann </font>
 </p>
 
 
 <p> 
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-44858-4_12">Pretraining is All You Need: A Multi-Atlas Enhanced Transformer Framework for Autism Spectrum Disorder Classification</a><br>
 <i><span style="color:#808080">MICCAI2023 Workshop on Machine Learning for Clinical Neuroimaging</span></i><br>
-<font size="2">Lucas Mahler, <b>Qi Wang</b>, Julius Steiglechner, Florian Birk, Samuel Heczko, Klaus Scheffler, Gabriele Lohmann </font>
+<font size="2">Lucas Mahler, <b>Qi Wang</b>, Julius Steiglechner, Florian Birk, Samuel Heczko, Klaus Scheffler, Gabriele Lohmann </font><br>
+<a href="https://github.com/MPI-Neuroinformatics/METAFormer">
+<img atl="github logo Pretrain is All you need" src="https://img.shields.io/badge/Github-grey?logo=github&link=https%3A%2F%2Fgithub.com%2FMPI-Neuroinformatics%2FMETAFormer
+">
+</a><br>
+
 </p>
 
 
 <p>
 <a href="https://openreview.net/pdf?id=EFiFV2MSNEB">Super-Resolution for Ultra High-Field MR Images</a><br>
 <i><span style="color:#808080">Medical Imaging with Deep Learning (MIDL 2022, Zürich)</span></i><br>
+<font size="2"><b>Qi Wang</b>, Julius Steiglechner, Tobias Lindig, Benjamin Bender, Klaus Scheffler, Gabriele Lohmann</font><br>
 <a href="https://github.com/wqlevi/MRSRGAN">
-<img alt="github logo" src="https://img.shields.io/badge/Github-grey?logo=Github&link=https%3A%2F%2Fgithub.githubassets.com%2Fassets%2FGitHub-Mark-ea2971cee799.png">
+<img alt="github logo MRSRGAN" src="https://img.shields.io/badge/Github-grey?logo=Github&link=https%3A%2F%2Fgithub.githubassets.com%2Fassets%2FGitHub-Mark-ea2971cee799.png">
 </a><br>
-<font size="2"><b>Qi Wang</b>, Julius Steiglechner, Tobias Lindig, Benjamin Bender, Klaus Scheffler, Gabriele Lohmann</font>
 </p>
 
 <p>
@@ -88,16 +101,18 @@ My current research falls in generative models using deep learning methods(e.g. 
 
 
 
-<p>
-<a href="https://www.sciencedirect.com/science/article/pii/S1053811921010648?via%3Dihub">Focal fMRI signal enhancement with implantable inductively coupled detectors</a><br>
-<i><span style="color:#808080">NeuroImage 2022</span></i><br>
-<font size="2">Yi Chen<sup>#</sup>, <b>Qi Wang<sup>#</sup></b>, Sangcheon Choi, Hang Zeng, Kengo Takahashi, Chunqi Qian, Xin Yu</font><span  align=right><font size="2">#: Joint first author</font></span>
-</p>
 
 <p>
 <a href="https://www.ismrm.org/21/program-files/O-72.htm">Inductively coupled detectors for optogenetic-driven focal and multiregional fMRI signal enhancement</a><br>
 <i><span style="color:#808080">ISMRM 2021, <b><i>summa cum laude award</i></b></span></i><br>
-<font size="2">Yi Chen<sup>#</sup>, <b>Qi Wang<sup>#</sup></b>, Sangcheon Choi, Hang Zeng, Kengo Takahashi, Chunqi Qian, Xin Yu</font> <span  style="text-align:right;"><font size="2">#: Joint first author</font></span></p>
+<font size="2">Yi Chen<sup>†</sup>, <b>Qi Wang<sup>†</sup></b>, Sangcheon Choi, Hang Zeng, Kengo Takahashi, Chunqi Qian, Xin Yu</font> <span  style="text-align:right;"><font size="2"><b>†: Joint first author</b></font></span></p>
+
+### Journal papers
+<p>
+<a href="https://www.sciencedirect.com/science/article/pii/S1053811921010648?via%3Dihub">Focal fMRI signal enhancement with implantable inductively coupled detectors</a><br>
+<i><span style="color:#808080">NeuroImage 2022</span></i><br>
+<font size="2">Yi Chen<sup>†</sup>, <b>Qi Wang<sup>†</sup></b>, Sangcheon Choi, Hang Zeng, Kengo Takahashi, Chunqi Qian, Xin Yu</font> <span  align="right"><font size="2"><b>†: Joint first author</b></font></span>
+</p>
 
 <p>
 <a href="https://www.jove.com/de/t/61463/real-time-fmri-brain-mapping-in-animals">Real-Time fMRI Brain Mapping in Animals </a><br>
@@ -110,7 +125,7 @@ My current research falls in generative models using deep learning methods(e.g. 
 <p>
 A Three-Player GAN for Super-Resolution in Magnetic Resonance Imaging<br>
 <i><span style="color:#808080">
-Oral presentation on MICCAI 2023 MLCN workshop, Paris, France
+Oral presentation on MICCAI 2023 MLCN workshop, Vancouver, Canada
 </span>
 </i>
 </p>
@@ -139,4 +154,9 @@ Sythetic 9T-like structural MRI using Generative Neural Network<br>
 </i>
 </p>
 
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=exp_DX4m2PBkWNOD0Mp_OpztaeIooy4Ym1bd_FxHg4w&cl=ffffff&w=a" style="float:right; width:50px;height:60px;"></script>
+### Professional service
+Reviewer for the following journals (workshops): 
+* NeuroImage
+* IEEE Journal of Biomedical and Health Informatics (IEEE J-BHI)
+* ISMRM-DACH
+<script width="200" height="100" type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=exp_DX4m2PBkWNOD0Mp_OpztaeIooy4Ym1bd_FxHg4w&cl=ffffff&w=a" style="float:right; width:50px;height:60px;"></script>
