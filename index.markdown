@@ -1,32 +1,26 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
+# Feel free to add content and custom `Front Matter` to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
 ## About me
 
-<img src="https://www.kyb.tuebingen.mpg.de/employee_images/99920-1680256439?t=eyJ3aWR0aCI6NDI2LCJoZWlnaHQiOjU0OCwiZml0IjoiY3JvcCIsImZpbGVfZXh0ZW5zaW9uIjoid2VicCJ9--27646ab4f30e7fedcf3f03ebd360565617825a1c" atl="Profile" style="float:right; width:150px;height:180px;">
+<img src="./figs/qi.jpg" atl="Profile" style="float:right; width:150px;height:180px;">
 
 <p>
-I'm currently a 4<sup>th</sup> year Ph.D. student from Neuroscience department at <a href="https://uni-tuebingen.de">Universität Tübingen</a> and <a href="https://www.kyb.tuebingen.mpg.de/de">Max Planck Institute for Biological Cybernetics</a>. Prior to that, I recieved my master in major of Mechanical Engineering in <a href="https://www.polyu.edu.hk/en/">Hong Kong Polytechnic University</a>.</p>
+I'm currently working as research scientist at <a href="https://www.medizin.uni-tuebingen.de/de/das-klinikum/einrichtungen/kliniken/radiologie/allgemeine-radiologie/forschung/ag-midas">University Hospital of Tübingen</a>. I had my Ph.D. from Neuroscience department at <a href="https://uni-tuebingen.de">Universität Tübingen</a> and <a href="https://www.kyb.tuebingen.mpg.de/de">Max Planck Institute for Biological Cybernetics</a>. Prior to that, I recieved my master in major of Mechanical Engineering in <a href="https://www.polyu.edu.hk/en/">Hong Kong Polytechnic University</a>.</p>
 
 <p>My current research falls in generative models using deep learning methods(e.g. GAN, score-match model, flow-based methods.) and its application on Medical Image data, such as  MRI(~9.4Tesla). Apart from applications, I'm also working on the following topics:
 <ul>
-<li> the optimization of GAN</li>
-<li> the development of flow based model for image-2-image translation tasks</li>
-<li> the alignment of machine intelligence with functional connectivity in human brain</li>
+<li> designing generative probabilistic models (e.g. flow models, autoregressive model)</li>
+<li> the development of generative models for low-level vision tasks</li>
+<li> the development of multi-modal generative models (e.g. CLIP for radiology images)</li>
 </ul></p>
 
 ## Publications
 ### Preprints
 
-<p>
-<a href="https://assets-eu.researchsquare.com/files/rs-4049684/v1_covered_55dfdbbf-b2d5-44dc-b403-651321105384.pdf?c=1711035751">Flexible and Cost-Effective Deep Learning for Fast Multi-Parametric Relaxometry using Phase-Cycled bSSFP</a><br>
-<i><span style="color:#808080">Preprint, 2024</span></i><br>
-<font size="2">Florian Birk, Lucas Mahler, Julius Steiglechner, <b>Qi Wang</b>, Klaus Scheffler, Rahel Heule</font>
-</p>
 
 <p>
 <a href="https://www.biorxiv.org/content/10.1101/2023.11.03.565485v1">Improving the reliability of fMRI-based predictions of intelligence via semi-blind machine learning</a><br>
@@ -53,6 +47,10 @@ I'm currently a 4<sup>th</sup> year Ph.D. student from Neuroscience department a
 </p>
 
 ### Conference papers
+<a>Exploration of Whole-Body Anatomy in the German National Cohort (NAKO): 3D Segmentation of 55 Structures in 28,969 MRI Scans</a><br>
+<i><span style="color:#808080">ISMRM2025</span></i><br>
+<font size="2">Louisa Fay, <b>Qi Wang</b>, Bin Yang, Thomas Küstner, Sergios Gatidis</font><br>
+
 <p>
 <a href="https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/papers/Wang_DISGAN_Wavelet-Informed_Discriminator_Guides_GAN_to_MRI_Super-Resolution_with_Noise_ICCVW_2023_paper.pdf">DISGAN: Wavelet-informede discriminator guides GAN to MRI images super-resolution with noise cleaning</a><br>
 <i><span style="color:#808080">ICCV2023 Workshop on Computer Vision for Automated Medical Diagnosis</span></i><br>
@@ -109,6 +107,12 @@ I'm currently a 4<sup>th</sup> year Ph.D. student from Neuroscience department a
 
 ### Journal papers
 <p>
+<a href="https://www.nature.com/articles/s41598-025-88579-z">Flexible and Cost-Effective Deep Learning for Fast Multi-Parametric Relaxometry using Phase-Cycled bSSFP</a><br>
+<i><span style="color:#808080">Scientific Reports, 2024</span></i><br>
+<font size="2">Florian Birk, Lucas Mahler, Julius Steiglechner, <b>Qi Wang</b>, Klaus Scheffler, Rahel Heule</font>
+</p>
+
+<p>
 <a href="https://www.sciencedirect.com/science/article/pii/S1053811921010648?via%3Dihub">Focal fMRI signal enhancement with implantable inductively coupled detectors</a><br>
 <i><span style="color:#808080">NeuroImage 2022</span></i><br>
 <font size="2">Yi Chen<sup>†</sup>, <b>Qi Wang<sup>†</sup></b>, Sangcheon Choi, Hang Zeng, Kengo Takahashi, Chunqi Qian, Xin Yu</font> <span  align="right"><font size="2"><b>†: Joint first author</b></font></span>
@@ -160,3 +164,7 @@ Reviewer for the following journals (workshops):
 * IEEE Journal of Biomedical and Health Informatics (IEEE J-BHI)
 * ISMRM-DACH
 <script width="200" height="100" type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=exp_DX4m2PBkWNOD0Mp_OpztaeIooy4Ym1bd_FxHg4w&cl=ffffff&w=a" style="float:right; width:50px;height:60px;"></script>
+
+### Awards
+International Exhibition of Inventions Geneva,
+<font size="2"><i>Silver Medal</i>, 2025</font> 
