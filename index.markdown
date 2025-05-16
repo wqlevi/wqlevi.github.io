@@ -21,7 +21,6 @@ I'm currently working as research scientist at <a href="https://www.medizin.uni-
 ## Publications
 ### Preprints
 
-
 <p>
 <a href="https://www.biorxiv.org/content/10.1101/2023.11.03.565485v1">Improving the reliability of fMRI-based predictions of intelligence via semi-blind machine learning</a><br>
 <i><span style="color:#808080">Preprint, 2023</span></i><br>
@@ -47,9 +46,11 @@ I'm currently working as research scientist at <a href="https://www.medizin.uni-
 </p>
 
 ### Conference papers
+<p>
 <a>Exploration of Whole-Body Anatomy in the German National Cohort (NAKO): 3D Segmentation of 55 Structures in 28,969 MRI Scans</a><br>
 <i><span style="color:#808080">ISMRM2025</span></i><br>
 <font size="2">Louisa Fay, <b>Qi Wang</b>, Bin Yang, Thomas Küstner, Sergios Gatidis</font><br>
+</p>
 
 <p>
 <a href="https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/papers/Wang_DISGAN_Wavelet-Informed_Discriminator_Guides_GAN_to_MRI_Super-Resolution_with_Noise_ICCVW_2023_paper.pdf">DISGAN: Wavelet-informede discriminator guides GAN to MRI images super-resolution with noise cleaning</a><br>
@@ -163,8 +164,13 @@ Reviewer for the following journals (workshops):
 * NeuroImage
 * IEEE Journal of Biomedical and Health Informatics (IEEE J-BHI)
 * ISMRM-DACH
-<script width="200" height="100" type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=exp_DX4m2PBkWNOD0Mp_OpztaeIooy4Ym1bd_FxHg4w&cl=ffffff&w=a" style="float:right; width:50px;height:60px;"></script>
 
 ### Awards
+<p>
 International Exhibition of Inventions Geneva,
 <font size="2"><i>Silver Medal</i>, 2025</font> 
+</p>
+
+
+
+<script width="200" height="100" type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=exp_DX4m2PBkWNOD0Mp_OpztaeIooy4Ym1bd_FxHg4w&cl=ffffff&w=a" style="float:right; width:50px;height:60px;"></script>
