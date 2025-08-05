@@ -1,0 +1,322 @@
+:root {
+    --primary-bg: #232226; /* Dark background for body */
+    --secondary-bg: #232226; /* Lighter dark for header, footer, sections */
+    --text-color: #f9f6ee; /* White text for body, links, headings */
+    --accent-color: #a6a5a5; /* Light gray for hover, underlines, borders */
+    --spotlight-color: rgba(235, 20, 20, 0.2); /* Semi-transparent white for spotlight */
+    --spotlight-reverse-color: rgba(0, 0, 0, 0.3); /* Semi-transparent dark gray for reverse spotlight */
+    --href-color: #4689CC; /* Blue color for links */
+    --href-hover-color: #5a9bd4; /* Lighter blue for link hover */
+    --preprint-bg: #626c66;
+    --paper-color: #bfcde0; /* Darker background for paper entries */
+}
+
+body {
+    /*font-family: Arial, sans-serif;*/
+    font-family: "Arial", monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--primary-bg);
+    position: relative; /* For positioning spotlight */
+    overflow-x: hidden; /* Prevent horizontal scroll from spotlight */
+    overflow-y: auto;;
+}
+
+a {
+    color: var(--href-color);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: var(--href-hover-color);
+}
+
+.spotlight {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, var(--spotlight-color) 10%, transparent 70%);
+    pointer-events: none; /* Allow clicks through spotlight */
+    z-index: 1000; /* Above other elements */
+    transform: translate(-50%, -50%); /* Center on cursor */
+    border-radius: 50%;
+}
+
+.spotlight.reverse {
+    background: radial-gradient(circle, var(--spotlight-reverse-color) 10%, transparent 70%);
+}
+
+header {
+    background-color: var(--secondary-bg);
+    padding: 1rem;
+    text-align: right;
+    position: relative; /* Ensure spotlight appears above */
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap; /* Ensure links stay on one line */
+}
+
+nav ul li {
+    margin: 0 1rem;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+.hero-content {
+    background-color: var(--secondary-bg);
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative; /* Ensure spotlight appears above */
+    z-index: 10;
+}
+.hero-info .contact-info {
+    list-style: none; /* Remove bullet points */
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    gap: 1rem; /* Space between items */
+    margin-top: 1rem; /* Space above contact list */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+.hero-info .contact-info li {
+    display: flex;
+    align-items: center; /* Vertically align icon and link */
+}
+
+.hero-info .contact-info .link-icon {
+    width: 16px; /* Icon size */
+    height: 16px;
+    margin-right: 0.5rem; /* Space between icon and link */
+    transition: opacity 0.3s ease; /* Smooth fade for icon swap */
+}
+
+/*.hero-info .contact-info .link-icon {
+    color: var(--accent-color); /* Gray icon */
+/*    margin-right: 0.5rem; /* Space between icon and link */
+/*    font-size: 1rem; /* Match link text size */
+/*}*/
+
+.about-me {
+    flex: 2; /* Larger portion for About Me */
+    padding-right: 2rem;
+}
+
+.hero-info {
+    flex: 1; /* Smaller portion for hero info */
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.hero-info .contact-info .multi-line-link {
+    display: inline-block; /* Allow multi-line styling */
+    text-align: left; /* Align text left */
+}
+
+.hero-info .contact-info .multi-line-link {
+    color: var(--link-color); /* Bright blue for first line */
+}
+
+.hero-info .contact-info .multi-line-link .link-first {
+    display: inline;
+}
+
+.hero-info .contact-info .link-second {
+    color: var(--accent-color); /* Light gray for second line */
+    font-style: italic; /* Italic font */
+}
+
+.hero-info .contact-info .link-last {
+    color: var(--text-color); /* White for last line */
+}
+
+.hero-info h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+.about-me h2 {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+.about-me ul {
+    list-style: disc; /* Enable bullet points */
+    padding-left: 1.5rem; /* Indent bullets */
+}
+
+.about-me ul li::marker {
+    color: var(--accent-color); /* Gray bullet points */
+}
+
+.content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background-color: var(--secondary-bg);
+    position: relative; /* Ensure spotlight appears above */
+    z-index: 10;
+    overflow-y: auto;
+}
+
+.content h2 {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    margin-bottom: 1rem;
+}
+
+.preprints {
+    background-color: var(--preprint-bg); /* Light gray background for preprints */
+    padding: 1rem;
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 1rem;
+    posotion: relative; /* Ensure spotlight appears above */
+}
+
+.preprints h2 {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.reviewing {
+    margin-bottom: 1rem;
+}
+
+.reviewing ul {
+    list-style: circle; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+    padding-left: 2.5rem;
+}
+
+.publication-entry {
+    margin-bottom: 1rem; /* Space between entries */
+}
+
+.publication-entry ul li {
+    margin-bottom: 1rem; /* Space between entries */
+    color: var(--paper-color);
+}
+
+.publication-entry a {
+    color: var(--href-color); /* Bright blue for title link */
+    display: block; /* New line for link */
+}
+
+.publication-entry a:hover {
+    color: var(--href-hover-color); /* Lighter blue on hover */
+}
+
+.publication-entry .pub-second {
+    color: var(--accent-color); /* Light gray for second line */
+    font-size: 0.9rem; /* Smaller font size */
+    font-style: italic; /* Italic font */
+    display: block; /* New line */
+    /*margin-top: 0.2rem; /* Small spacing */
+}
+
+.publication-entry .pub-last {
+    color: var(--text-color); /* White for author names */
+    font-size: 0.85rem; /* Smaller font size */
+    display: block; /* New line */
+    /*margin-top: 0.2rem; /* Small spacing */
+}
+
+.publication-entry .pub-last b {
+    font-weight: bold; /* Bold for emphasized author */
+}
+
+
+footer {
+    background-color: var(--secondary-bg);
+    color: var(--accent-color);
+    font-size: .7rem;
+    text-align: left;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 10%;
+    z-index: 10; /* Ensure spotlight appears above */
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+    }
+
+    nav ul li {
+        margin: 0 0.5rem; /* Tighter margins for mobile */
+        font-size: 0.9rem; /* Slightly smaller font */
+    }
+
+    .hero-content {
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .about-me {
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .hero-info {
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .hero-info h1 {
+        font-size: 2rem;
+    }
+
+    .about-me h2 {
+        font-size: 1.2rem;
+    }
+
+    .spotlight {
+        width: 60px;
+        height: 60px;
+    }
+}
