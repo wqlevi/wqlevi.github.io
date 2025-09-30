@@ -130,6 +130,7 @@ nav ul li a.active, nav ul li a:hover {
 
 .profile-pic {
     width: 150px;
+    height: 193px;
     margin-bottom: 1rem;
 }
 
@@ -275,6 +276,45 @@ footer {
     width: 10%;
     z-index: 10; /* Ensure spotlight appears above */
 }
+
+/*Blog entries*/
+.blog-item {
+      display: flex;
+      align-items: center;
+      background: #bdabf7;
+      margin: 0.75rem 0;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .blog-item:hover {
+      transform: scale(1.02);
+    }
+    .blog-thumbnail {
+      flex: 0 0 120px;
+      height: 80px;
+      margin-right: 1rem;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+    .blog-content {
+      flex: 1;
+    }
+    .blog-content a {
+      text-decoration: none;
+      color: var(--href-color);
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .blog-content a:hover {
+    color: var(--href-hover-color); /* Lighter blue on hover */
+}
+    .blog-content p {
+      margin: 0.5rem 0 0;
+      color: #555;
+      font-size: 0.9rem;
+    }
 
 @media (max-width: 600px) {
     nav ul {
