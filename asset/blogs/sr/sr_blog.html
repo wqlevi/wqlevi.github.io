@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qi Wang - Blogs</title>
+    <link rel="icon" type="image/png" href="../../../asset/7.png">
+    <link rel="stylesheet" href="../../../styles.css">
+    <style>
+        /* Local callout to mirror the blog-item highlight color */
+        .sr-callout {
+            background: #bdabf7;
+            color: #1f1f1f;
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Center images within blog content */
+        .content img {
+            display: block;
+            margin: 1rem auto;
+        }
+    </style>
+</head>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)'], ['$', '$']],
+      displayMath: [['\\[', '\\]'], ['$$', '$$']]
+    }
+  };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../../../publications.html">Publications</a></li>
+                <li><a class="active" href="../../../blogs.html">Blogs</a></li>
+                <li><a href="../../../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <h1 id="super-resolution-using-gan">Super resolution using GAN</h1>
+            <p><em>This project is mainly about deploying GAN for generating high fidelity super-resolution (SR) MRI images</em></p>
+          
+                <p>The result of SR could be extend for consequent applications, e.g. data augmentation for segmentation models, and these result were shown in <a href="https://pure.mpg.de/rest/items/item_3505648_2/component/file_3505649/content">OHBM2022</a> and <a href="https://openreview.net/pdf?id=EFiFV2MSNEB">MIDL2022</a>; while the development of our SR model with 3 players as well as the denoising features can be found at <a href="https://link.springer.com/chapter/10.1007/978-3-031-44858-4_3">MICCAI2023</a> and <a href="https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/papers/Wang_DISGAN_Wavelet-Informed_Discriminator_Guides_GAN_to_MRI_Super-Resolution_with_Noise_ICCVW_2023_paper.pdf">ICCV2023</a>.</p>
+
+            <ul>
+                <li><a href="#Augmentation">Improving segmentation accuracy for brain MRI by training on SR augmented dataset</a></li>
+                <li><a href="#ThreePlayerGAN">3-Player GAN for perceptually SOTA SR task</a></li>
+                <li><a href="#DISGAN">Noise cleaning with wavelet-informed discriminator for SR</a></li>
+            </ul>
+            <p>In my opinion, SR task should be distinguished from other generative tasks (e.g. style transfer, cross-modality generation etc.), because of the nature of the task in pursuit of sharp and realistic image content. Thus, I personally prefer to redeem a SR task as restoring HR image from an LR counterpart with minimum perceptual loss (i.e. consistent quality). As an analogy, the SR process can be seen as fitting learnable upsampling kernels within the scope of the dataset. While many models failed at this point, DDPM treats SR as a way of matching the probability distribution of HR and SR images, which overlooks the local details that are mostly approximated via the intrinsic inductive bias of the convolutional layers.</p>
+            <h2 id="augmentation">Augmentation</h2>
+            <p>The segmentation networks were separately trained on purely real MRI T1w images (left) and a mixture of SR images and real images (right), the latter training yields more correct segmentation as are pointed out by the blue arrows. <img src="./midl_seg.png" width=500></p>
+            <p><br /></p>
+            <h2 id="threeplayergan">Convergence of Three-Player GAN</h2>
+            <p>
+                Balancing GAN training is notoriously difficult, as the generator and discriminator are forming a min-max game which causes instability during the training and close to the global optimum. In 3-player GAN, an additional player is introduced to enhance the perceptual quality while further complicating the training dynamics. To address this, annealed Gaussian noise were added to both GAN objections to enforce the overlapped distributions therefore a stable gradient.<br />
+            </p>
+            <p>
+                With the discrepancy for relativistic GAN loss ($\mathcal{L}^{RaGAN}$) approaching 0, for both the generator (G) and discriminator (D), the model is considered converged and balanced, which is shown to happen in our experiment.
+                <img src="./3playerGAN_diagram.png" width=500>
+            </p>
+            <h2 id="disgan">DISGAN</h2>
+            <p>As can be seen in the listed results, where the DISGAN output (left) shows close approximation to the GT (right). While eliminating intrinsic artefacts, like repetitive stripes shown in the <span style="color:green"> green box </span> below.</p>
+            <figure>
+                <img src="./SR.png" width=500>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Qi Wang. All rights reserved.</p>
+    </footer>
+    <script src="../../../script.js"></script>
+</body>
+</html>
